@@ -1,0 +1,42 @@
+{
+  "name": "mdx-deck-footer",
+  "version": "1.3.0",
+  "description": "A simple footer for mdx-deck presentations",
+  "source": "index.js",
+  "main": "lib/mdx-deck-footer.js",
+  "module": "lib/mdx-deck-footer.module.js",
+  "unpkg": "lib/mdx-deck-footer.umd.js",
+  "scripts": {
+    "build": "microbundle build --jsx React.createElement --external react -o lib",
+    "dev": "microbundle watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutyel/mdx-deck-footer.git"
+  },
+  "keywords": [
+    "mdx",
+    "mdx-deck",
+    "footer",
+    "emotion"
+  ],
+  "author": "Flavio Corpa <flaviocorpa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.34",
+    "@emotion/styled": "^10.0.27"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "microbundle": "^0.12.3"
+  },
+  "bugs": {
+    "url": "https://github.com/kutyel/mdx-deck-footer/issues"
+  },
+  "homepage": "https://github.com/kutyel/mdx-deck-footer#readme"
+}
